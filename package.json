@@ -1,0 +1,21 @@
+{
+  "name": "shader-variant-planner",
+  "version": "1.0.0",
+  "description": "Dependency-free Node.js GLSL shader variant planner: include/macro expansion, resource reflection, stable hashing and hot-reload invalidation.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "files": [
+    "src",
+    "README.md"
+  ]
+}
